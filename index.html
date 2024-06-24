@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica de clase</title>
+    
+
+</head>
+<body>
+    <div class="container">
+
+        <form action="./procesar.php" method="POST">
+            <h1 class="title">Calculadora de operaciones Aritméticas con PHP</h1>
+
+            <h3 class="subtitulo">Captura el valor 1:</h3>
+            <input class="input" type="number" id="v1" name="v1" placeholder="Valor 1..." required>
+
+            <h3 class="subtitulo">Captura el valor 2:</h3>
+            <input class="input" type="number" id="v2" name="v2" placeholder="Valor 2..." required><br><br>
+
+            <select id="operaciones" class="button" name="operaciones">
+                <option value="sumar">Sumar</option>
+                <option value="restar">Restar</option>
+                <option value="multiplicar">Multiplicar</option>
+                <option value="dividir">Dividir</option>
+            </select><br><br>
+
+            <button type="submit" class="button" name="calcular">Calcular</button>
+
+        </form>
+    </div>
+
+</body>
+</html>
